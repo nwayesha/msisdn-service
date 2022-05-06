@@ -1,5 +1,5 @@
 # MSISDN-Demo
-#### Conversion of given mobile number to international MSISDN format.
+#### Conversion of given mobile numbers to international MSISDN format.
 
 This project is implemented to demonstrate the international MSISDN conversion of a given mobile number.
 
@@ -69,4 +69,7 @@ Finally, I converted the mobile number to the format of starting with +46xxxxxxx
 
 ### Future enhancement:
 
-Unit testing need to be implemented.
+* Implementing  MSISDN format mobile number files for different countries.
+* Analyzing the performance for larger data files.
+* Implementing Unit testing.
+
