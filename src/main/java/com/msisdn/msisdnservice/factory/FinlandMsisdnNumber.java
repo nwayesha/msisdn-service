@@ -9,7 +9,7 @@ public class FinlandMsisdnNumber implements MsisdnNumber {
 	final static Logger logger = LoggerFactory.getLogger(FinlandMsisdnNumber.class);
 
 	@Override
-	public String validationNumber(String number) {
+	public String formatNumber(String number) {
 		String msidnNumber = number.contains(Constants.DASH) ? number.replace(Constants.DASH, Constants.EMPTY_STR) : number;
 
 		if (msidnNumber.startsWith(Constants.FINLAND_COUNTRY_CODE_1)) {

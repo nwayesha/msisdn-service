@@ -43,7 +43,7 @@ public class FileReaderService {
 			while ((line = bufferedReader.readLine()) != null) {
 				// logger.info(line);
 
-				final String formattedPhoneNumber = msisdnNumberFactory.getFactory(country).validationNumber(line);				
+				final String formattedPhoneNumber = msisdnNumberFactory.getFactory(country).formatNumber(line);				
 				// logger.info("line > " + line + " number > " +formattedPhoneNumber);
 
 				if (!formattedPhoneNumber.isEmpty()) {
