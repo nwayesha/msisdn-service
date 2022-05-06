@@ -21,7 +21,8 @@ public class MsisdnService {
 	private ConfigProperties configProp;
 
 	@Autowired
-	private FileWriterService fileWriterService;
+	private FileWriterService fileWriterService;	
+		
 
 	public void runProcess() {
 		long startTime = System.nanoTime();
