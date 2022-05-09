@@ -42,7 +42,7 @@ ex:
 
 The output file will be saved in the below location.
 
-/{{WORKSPACE LOCTION}}/msisdn-service/src/main/resources/files/msisdn_numbers.txt
+    /{{WORKSPACE LOCTION}}/msisdn-service/src/main/resources/files/msisdn_numbers.txt
 
 
 ### How has problem been solved?
