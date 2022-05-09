@@ -37,6 +37,14 @@ ex:
 ### How to enable debug? 
 	./gradlew bootRun --debug-jvm
 
+
+### Output file location
+
+The output file will be saved in the below location.
+
+/{{WORKSPACE LOCTION}}/msisdn-service/src/main/resources/files/msisdn_numbers.txt
+
+
 ### How has problem been solved?
 I analyzed the data by reading line by line using the simple java program to identify,
 - *the number of saved data patterns.*
@@ -72,4 +80,3 @@ Finally, I converted the mobile number to the format of starting with +46xxxxxxx
 * Implementing  MSISDN format mobile number files for different countries.
 * Analyzing the performance for larger data files.
 * Implementing Unit testing.
-
